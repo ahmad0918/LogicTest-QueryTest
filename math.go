@@ -7,10 +7,10 @@ import (
 
 func main()  {
 	var array = []string{"cook", "save", "taste", "aves", "vase", "state", "map"}	
-	removeSlice(array)
+	addSlice(array)
 }
 
-func removeSlice(array []string) {
+func addSlice(array []string) {
 	arr :=[][]string{}
 	for i:= 0; i < len(array); i++ {
 		ar := []string{}
